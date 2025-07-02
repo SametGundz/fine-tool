@@ -1,0 +1,56 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+data/output/sessions/
+*.log
+
+# Camera images (keep directories)
+data/input/Camera_*/*.png
+data/input/Camera_*/*.jpg
+data/input/Camera_*/*.jpeg
+data/input/Camera_*/*.bmp
+data/input/Camera_*/*.tiff
+data/input/Camera_*/*.tif
+
+# Keep calibration data
+!data/input/calibrated_cameras_data.yml 
